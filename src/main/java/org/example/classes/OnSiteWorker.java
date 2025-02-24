@@ -9,7 +9,12 @@ public class OnSiteWorker extends Worker {
 
     @Override
     public double calculateSalary(int hoursWorked) {
-        return super.calculateSalary(hoursWorked) * gasoline;
+        return super.calculateSalary(hoursWorked) + gasoline;
+    }
+    
+    @Deprecated  
+    public double calculateSalaryNoGas(int hoursWorked){
+        return super.calculateSalary(hoursWorked);
     }
 }
 
