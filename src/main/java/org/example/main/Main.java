@@ -15,6 +15,6 @@ public class Main {
         System.out.println("Salary: " + onlineWorker1.calculateSalary(200));
 
         OnSiteWorker onSiteWorker1 = new OnSiteWorker("David", "García", 2000);
-        System.out.println("Salary: " + worker1.calculateSalary(210));
+        System.out.println("Salary: " + onSiteWorker1.calculateSalary(210));
     }
 }
